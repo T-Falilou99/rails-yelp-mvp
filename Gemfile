@@ -1,7 +1,10 @@
 source "https://rubygems.org"
 
 ruby "3.3.5"
-
+# You can add ostruct to your Gemfile or gemspec to silence this warning.
+gem 'ostruct'
+# Pour ajouter Simple Form à ton application, ajoute la gemme à ton Gemfile :
+gem "simple_form"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.5"
 
